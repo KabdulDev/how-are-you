@@ -8,6 +8,8 @@ class Header extends React.Component {
         this.state = {
             title: "Test"
         }
+
+        this.updateTitle = this.updateTitle.bind(this)
     }
 
     updateTitle = (Heading) =>{
@@ -20,9 +22,9 @@ class Header extends React.Component {
         
         <div className = "Header">
 
-            <p> 
+            <h1> 
                 {this.state.title}
-            </p>
+            </h1>
             
 
 

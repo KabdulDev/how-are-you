@@ -16,7 +16,7 @@ class Questions extends React.Component {
                 ],
                 tags: ["suicide", "anxiety", "domestic violence"]
                 },
-                {id: 1, question: "Have you eaten", 
+                {id: 2, question: "Have you eaten", 
                 answers: [
                     {answer: "yes", depVal:0, anxVal:0, suicideVal:0 },
                     {answer: "no", depVal:1, anxVal:1, suicideVal:0 },
@@ -24,7 +24,7 @@ class Questions extends React.Component {
                 ],
                 tags: ["suicide", "anxiety", "domestic violence"]
                 },
-                {id: 1, question: "Have you eaten", 
+                {id: 3, question: "Have you eaten", 
                 answers: [
                     {answer: "yes", depVal:0, anxVal:0, suicideVal:0 },
                     {answer: "no", depVal:1, anxVal:1, suicideVal:0 },
@@ -32,7 +32,7 @@ class Questions extends React.Component {
                 ],
                 tags: ["suicide", "anxiety", "domestic violence"]
                 },
-                {id: 1, question: "Have you eaten", 
+                {id: 4, question: "Have you eaten", 
                 answers: [
                     {answer: "yes", depVal:0, anxVal:0, suicideVal:0 },
                     {answer: "no", depVal:1, anxVal:1, suicideVal:0 },
@@ -50,3 +50,5 @@ class Questions extends React.Component {
     }
 
 }
+
+export default Questions;
