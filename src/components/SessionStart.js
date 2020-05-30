@@ -2,13 +2,37 @@ import React from 'react';
 import Intro from './Intro'
 import Header from './Header';
 import {
-    // BrowserRouter as Router,
-    // Switch,
+    BrowserRouter as Router,
+    Switch,
     Route,
-    Link
+    Link,
+    useLocation
 } from "react-router-dom";
 //import Survey from './Survey';
-import Resources from './ResourcesPages/Resources';
+import Routing from './Routing';
+
+export default function SessionStartFull(){
+        return(
+        <Router>
+            <SessionNav />
+        </Router>
+    );
+}
+
+function SessionNav(){
+    let location = useLocation();
+    let background = location.state && location.state.background;
+    return(
+        <div>
+            <Switch location={background || location}>
+                <Route exact path="/" children={<SessionStart />} />
+                <Route path="/Resources" children={<Routing />} />
+                {/* <Route path="/img/:id" children={<ImageView />} /> */}
+            </Switch>
+        </div>
+    );
+
+}
 
 function SessionStart(){
 
@@ -17,31 +41,31 @@ function SessionStart(){
 
         <div>
         
-        <Intro />
-        <Header 
-            title= "How are You?" />
-        <div className= 'Questions'>
+            <Intro />
+            <Header 
+                title= "How are You?" />
+            <div className= 'Questions'>
 
-            <h2> Would you like to talk today? </h2>
+                <h2> Would you like to talk today? </h2>
 
 
-        </div>
+            </div>
 
-        <div className = 'Answers'>
-        
-            {/* <Router> */}
-                {/* <Link to="/Resources">
-                    <button onClick> No </button>
-                </Link> */}
+            <div className = 'Answers'>
+            
+                
+                    <Link to="/Resources">
+                        <button onClick> No </button>
+                    </Link>
 
-            {/* </Router> */}
+                
 
-            <button onClick> No </button>
-            <button onClick> Yes </button>
+                {/* <button onClick> No </button> */}
+                <button onClick> Yes </button>
 
-            {/* <Route path="/Resources" component= {Resources} /> */}
+                {/* <Route path="/Resources" component= {Resources} /> */}
 
-        </div>
+            </div>
 
         </div>
         
@@ -51,4 +75,3 @@ function SessionStart(){
 
 }
 
-export default SessionStart;

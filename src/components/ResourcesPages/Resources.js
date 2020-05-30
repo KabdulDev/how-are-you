@@ -1,5 +1,4 @@
 import React from "react";
-import Routing from '../Routing';
 
 class Resources extends React.Component {
   
@@ -16,7 +15,7 @@ class Resources extends React.Component {
     render() {
     return (
       <div>
-        <Routing />
+        
         <div>
         <h1>
             Category name
