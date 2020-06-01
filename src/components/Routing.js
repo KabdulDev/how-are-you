@@ -14,11 +14,11 @@ import Articles from './ResourcesPages/Articles';
 import Excercises from './ResourcesPages/Excercises';
 
 const routes = [
-  {
+  /* {
     path: "/",
     exact: true,
     main: () => <SessionStart />,
-  },
+  }, */
   {
     path: "/Resources",
     main: () => <Resources />,
@@ -51,9 +51,9 @@ function Routing() {
         <Router>
             <div className="Sidebar">
                 <ul ClassName="Menu Lists">
-                    <li>
+                    {/* <li>
                         <Link to="/">Start</Link>
-                    </li>
+                    </li> */}
                     <li>
                         <Link to="/Resources">Resources</Link>
                     </li>

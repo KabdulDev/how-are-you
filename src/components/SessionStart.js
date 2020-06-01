@@ -39,11 +39,11 @@ function SessionStart() {
     <div>
       <Intro />
       <Header title="How are You?" />
-      <div className="Questions">
+      <div className="questions">
         <h2> Would you like to talk today? </h2>
       </div>
 
-      <div className="Answers">
+      <div className="answers">
         <Link to="/Resources">
           <button> No </button>
         </Link>

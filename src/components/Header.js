@@ -1,5 +1,5 @@
 import React from "react";
-
+import '../siteDesign.css'
 class Header extends React.Component {
   constructor(props) {
     super(props);
@@ -17,8 +17,8 @@ class Header extends React.Component {
 
   render() {
     return (
-      <div className="Header">
-        <h1>{this.state.title}</h1>
+      <div className="header">
+        <h1>{this.props.title}</h1>
       </div>
     );
   }
