@@ -1,38 +1,27 @@
-import React from 'react';
+import React from "react";
 
 class Header extends React.Component {
+  constructor(props) {
+    super(props);
 
-    constructor(props){
-        super(props);
+    this.state = {
+      title: "Test",
+    };
 
-        this.state = {
-            title: "Test"
-        }
+    this.updateTitle = this.updateTitle.bind(this);
+  }
 
-        this.updateTitle = this.updateTitle.bind(this)
-    }
+  updateTitle = (Heading) => {
+    this.setState({ title: Heading });
+  };
 
-    updateTitle = (Heading) =>{
-        this.setState({ title: Heading})
-    }
-
-    render () {
-    
+  render() {
     return (
-        
-        <div className = "Header">
-
-            <h1> 
-                {this.state.title}
-            </h1>
-            
-
-
-        </div>
+      <div className="Header">
+        <h1>{this.state.title}</h1>
+      </div>
     );
-
-
-}
+  }
 }
 
 export default Header;
