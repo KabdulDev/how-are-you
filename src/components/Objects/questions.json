@@ -1,0 +1,72 @@
+{
+  "Questions": [
+    {
+      "id": 0,
+      "question": "In the last 6 months I felt restless, agitated, frantic or tense.",
+      "answers": [
+        { "answer": "Never", "depVal": 0, "anxVal": 0, "suicideVal": 0 },
+        { "answer": "A few times", "depVal": 0, "anxVal": 1, "suicideVal": 0 },
+        { "answer": "Sometimes", "depVal": 0, "anxVal": 3, "suicideVal": 0 },
+        { "answer": "Often", "depVal": 0, "anxVal": 4, "suicideVal": 0 },
+        { "answer": "Constantly", "depVal": 0, "anxVal": 5, "suicideVal": 0 }
+      ],
+      "tags": ["anxiety"]
+    },
+    {
+      "id": 1,
+      "question": "In the last 6 months I had trouble sleeping - I could not fall or stay asleep, and/or didn't feel well-rested when I woke up.",
+      "answers": [
+        { "answer": "Never", "depVal": 0, "anxVal": 0, "suicideVal": 0 },
+        { "answer": "A few times", "depVal": 0, "anxVal": 1, "suicideVal": 0 },
+        { "answer": "Sometimes", "depVal": 0, "anxVal": 3, "suicideVal": 0 },
+        { "answer": "Often", "depVal": 0, "anxVal": 4, "suicideVal": 0 },
+        { "answer": "Constantly", "depVal": 0, "anxVal": 5, "suicideVal": 0 }
+      ],
+      "tags": ["suicide", "anxiety"]
+    },
+    {
+      "id": 2,
+      "question": "In the last 6 months, I had difficulty breathing or swallowing.",
+      "answers": [
+        { "answer": "Not at all", "depVal": 0, "anxVal": 0, "suicideVal": 0 },
+        { "answer": "Mild", "depVal": 0, "anxVal": 1, "suicideVal": 0 },
+        { "answer": "Moderate", "depVal": 0, "anxVal": 3, "suicideVal": 0 },
+        { "answer": "Severe", "depVal": 0, "anxVal": 4, "suicideVal": 0 }
+      ],
+      "tags": ["suicide", "anxiety"]
+    },
+    {
+      "id": 3,
+      "question": "In the last 6 months, my heart would skip beat, was pounding, or my heart rate increased.",
+      "answers": [
+        { "answer": "Not at all", "depVal": 0, "anxVal": 0, "suicideVal": 0 },
+        { "answer": "Mild", "depVal": 0, "anxVal": 1, "suicideVal": 0 },
+        { "answer": "Moderate", "depVal": 0, "anxVal": 3, "suicideVal": 0 },
+        { "answer": "Severe", "depVal": 0, "anxVal": 4, "suicideVal": 0 }
+      ],
+      "tags": ["suicide", "anxiety"]
+    },
+    {
+        "id": 4,
+        "question": "In the last 6 months, I frequently felt sad, like I couldn't go on.",
+        "answers": [
+          { "answer": "Not at all", "depVal": 0, "anxVal": 0, "suicideVal": 0 },
+          { "answer": "Mild", "depVal": 1, "anxVal": 0, "suicideVal": 0 },
+          { "answer": "Moderate", "depVal": 3, "anxVal": 0, "suicideVal": 0 },
+          { "answer": "Severe", "depVal": 5, "anxVal": 0, "suicideVal": 0 }
+        ],
+        "tags": ["suicide", "depression"]
+      },
+      {
+        "id": 5,
+        "question": "In the last 6 months, I lost or gained weight without trying to, or my appetite changed.",
+        "answers": [
+            { "answer": "Not at all", "depVal": 0, "anxVal": 0, "suicideVal": 0 },
+            { "answer": "Mild", "depVal": 1, "anxVal": 0, "suicideVal": 0 },
+            { "answer": "Moderate", "depVal": 3, "anxVal": 0, "suicideVal": 0 },
+            { "answer": "Severe", "depVal": 5, "anxVal": 0, "suicideVal": 0 }
+        ],
+        "tags": ["suicide", "depression"]
+      }
+  ]
+}

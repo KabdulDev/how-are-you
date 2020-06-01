@@ -1,0 +1,134 @@
+body {
+    position: relative;
+width: 1440px;
+height: 1024px;
+
+background: #73B9FA;
+}
+
+button {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#E5E5E5;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+button:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+
+.header{
+    position: absolute;
+width: 940px;
+height: 303px;
+left: calc(50% - 940px/2 - 0.5px);
+top: 0px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 84px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #E5E5E5;
+  }
+
+  .questions{
+    position: static;
+    width: 1800px;
+    height: 802px;
+    left: 0px;
+    top: calc(50% - 402px/2 - 104px);
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 84px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #E5E5E5;
+  }
+
+  .answers{
+    position: absolute;
+    width: 1800px;
+    height: 211px;
+    left: 300px;
+    top: calc(65% - 211px/2 + 178.5px);
+    justify-content: space-evenly;
+
+
+
+  }
+
+  .questionNav{
+    position: absolute;
+    width: 1190px;
+    height: 146px;
+    left: 125px;
+    top: 878px;
+    justify-content: space-evenly;
+
+  }
+
+ .questionNum{
+    position: absolute;
+    left: 0%;
+    right: 85.13%;
+    top: 3.42%;
+    bottom: 0%;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #E5E5E5;
+ }
+
+ .questionCycler{
+    position: absolute;
+    left: 70.08%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: space-evenly;
+
+
+ }
+
+
